@@ -1,0 +1,444 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Source+Sans+Pro:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hahmlet:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=STIX+Two+Text:wght@500&display=swap');
+
+
+body{
+    margin: 0%;
+    padding: 0%;
+}
+.mainmenu{
+    width: 100%;
+    text-align: right;
+    background-color: rgb(7, 7, 82);
+}
+.mainmenu ul{
+    margin: 0%;
+    display: inline-block;
+    list-style: none;
+}
+.mainmenu ul li{
+    float:left;
+    margin-right: 50px;
+}
+.mainmenu ul li a{
+    margin: 0%;
+    display: block;
+    padding: 20px 10px;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #fff;
+    font-family: 'STIX Two Text', serif;
+}
+
+.log-in{
+    position: absolute;
+    top: 67px;
+    left: 970px;
+    width: 300px;
+    height: max-content;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.452);
+    box-shadow:0px 10px 36px rgba(0,0,0,0.5);
+    text-align: left;
+    z-index: 1;
+    display: none;
+}
+.avator{
+    text-align: center;
+}
+.avator i{
+    font-size: 80px;
+    background: blue;
+    width: 110px;
+    height: 110px;
+    line-height: 100px;
+    border-radius: 50%;
+}
+.log-in form p{
+    margin-bottom: 0%;
+}
+.log-in form input[type="email"], input[type="password"]{
+    width: 100%;
+    text-align: left;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #000;
+}
+::placeholder{
+    color: #fff;
+}
+.log-in form input[type="submit"]{
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: -20px;
+    padding: 5px;
+    border-radius: 10px;
+    border:none;
+    background: transparent;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.5);
+}
+.log-in form input[type="submit"]:hover{
+    background: #000;
+    color: #fff;
+}
+.log-in .p{
+    margin-top: -30px;
+}
+
+
+.log:hover .log-in{
+    display: block;
+}
+
+
+header{
+    width: 100%;
+    height: 700px;
+    
+}
+.vid1{
+    width: 100%;
+    height:max-content;
+    position: absolute;
+    background-size: cover;
+}
+.boxx1{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 300px;
+    height: 300px;
+    background: rgba(14, 14, 129, 0.582);
+}
+.headwrt-box1{
+    position: absolute;
+    top: 15px;
+    bottom: 15px;
+    left: 15px;
+    right: 15px;
+    padding: 10px;
+    border: 3px solid #fff000;
+}
+.lin1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.boxx1 .lin1:before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    background:rgb(15, 14, 87);
+    animation: animateLine 3s linear infinite;
+}
+@keyframes animateLine{
+    0%
+    {
+        transform: scaleX(0);
+        transform-origin: left;
+    }
+}
+.boxx1 .lin1:nth-child(1){
+    transform:rotate(0deg);
+}
+.boxx1 .lin1:nth-child(2){
+    transform:rotate(90deg);
+}
+.boxx1 .lin1:nth-child(3){
+    transform:rotate(180deg);
+}
+.boxx1 .lin1:nth-child(4){
+    transform:rotate(270deg);
+}
+
+.hwrtx1{
+    color: #fff;
+    text-shadow: 0px 0px 20px rgb(221, 32, 32);
+    text-align: center;
+    font-size: 30px;
+}
+.pwrtx1{
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+
+.sec2{
+    width: 100%;
+    height: 900px;
+}
+
+.parallax1{
+    background: url("parallax1.jpg")
+    repeat fixed 100%;
+    background-size: cover;
+}
+.parallax-inner1{
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+.parallax-quate1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.parallax-quate-wrt1{
+    width: 500px;
+    height: 300px;
+    text-align: center;
+    box-shadow: 0px 10px 36px rgba(0,0,0,0.5);
+    border-radius: 15px;
+    padding: 40px 10px;
+    overflow: hidden;
+}
+
+.parallax-quate-wrt1:hover:before{
+    left: -50%;
+    transform: skewX(-3deg);
+}
+.hwrt1{
+    position: relative;
+    color: #fff;
+    font-size: 60px;
+    text-shadow: 0px 0px 10px rgb(58, 58, 223);
+}
+.pwrt1{
+    position: relative;
+    color: rgb(253, 252, 252);
+    font-size: 25px;
+    text-shadow: 0px 0px 10px rgb(58, 58, 223);
+}
+
+
+
+
+.sec3{
+    width: 100%;
+    height: 600px;
+    background: rgb(6, 6, 59);
+    padding: 20px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pdiv{
+    position: relative;
+    width: 400px;
+    margin-right: 50px;
+}
+.pdiv .pdivhwrt{
+    font-size: 50px;
+    color: #fff;
+    text-shadow: 0px 0px 20px blue;
+}
+.pdiv .pdivpwrt{
+    font-size: 20px;
+    color: #fff;
+    margin-top: 30px;
+}
+
+.mainbox{
+    width: 400px;
+    height: 300px;
+
+
+    overflow: hidden;
+}
+.slide{
+    position: relative;
+    width: 700%;
+    height: 300px;
+    display: flex;
+}
+.slide-img{
+    width: 20%;
+    transition: 0.5s;
+}
+.slide-img img{
+    max-width: 400px;
+}
+
+input[name="r"]{
+    position: absolute;
+    visibility: hidden;
+}
+
+.navigation{
+    position: relative;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-51%);
+    display: flex;
+}
+.bar{
+    position: relative;
+    width: 30px;
+    height: 20px;
+    margin-left: 14px;
+    border: 1px solid #fff;
+    cursor: pointer;
+    text-align: center;
+    color: #fff;
+    transition: 0.5s;
+}
+.bar:hover{
+    background: #fff;
+    color: #000;
+}
+
+#r1:checked ~ .s1{
+    margin-left: 0%;
+}
+#r2:checked ~ .s1{
+    margin-left: -14.27%;
+}
+#r3:checked ~ .s1{
+    margin-left: -33.25%;
+}
+#r4:checked ~ .s1{
+    margin-left: -60%;
+}
+#r5:checked ~ .s1{
+    margin-left: -80%;
+}
+#r6:checked ~ .s1{
+    margin-left: -100%;
+}
+#r7:checked ~ .s1{
+    margin-left: -120%;
+}
+#r8:checked ~ .s1{
+    margin-left: -140%;
+}
+.wrt{
+    position: absolute;
+    bottom:57px;
+    width: 100%;
+    padding: 10px;
+    background:rgba(255, 255, 255, 0.178);
+}
+.wrt p{
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 0%;
+}
+.wrt a{
+    text-decoration: none;
+    font-size: 15px;
+    color: blue;
+}
+
+
+.sec4{
+    width: 100%;
+    height: 600px;
+}
+.parallax2{
+    background:url("david-monje-8vyCtLPlEBo-unsplash.jpg")
+    repeat fixed 100%;
+    background-size: cover;
+}
+.parallax-inner2{
+    padding-top: 15%;
+    padding-bottom: 25%;
+}
+.parallax-quate2{
+    width: 60%;
+    margin: auto;
+    padding: 10px 10px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.5);
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.158);
+}
+.hwrt2{
+    text-align: center;
+    font-size: 60px;
+    color: #fff;
+    text-shadow: 0px 0px 10px rgb(58, 58, 223);
+}
+.pwrt3{
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    text-shadow: 0px 0px 10px rgb(58, 58, 223);
+}
+
+
+
+
+.sec5{
+    width: 100%;
+    height: 350px;
+    background-color: rgb(4, 4, 68);
+    
+}
+
+
+.hwrt3{
+    text-transform:uppercase;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding: 13px;
+    font-size: 14px;
+    text-align: right;
+    color: #fff;
+    font-family: 'Hahmlet', serif;
+}
+
+.icon{
+    position: relative;
+    top: 60px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.icon p{
+    color: #fff;
+    margin-right: 10px;
+}
+.icon a{
+    text-decoration: none;
+    color: #fff;
+    margin-left: 20px;
+    font-size: 30px;
+}
+
+
+.company-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.company-div img{
+    position: relative;
+    top: 60px;
+    max-width: 150px;
+    margin-bottom: 10px;
+}
+.company-div a{
+    text-decoration: none;
+    color: #fff;
+}
+.icon1{
+    position: relative;
+    top: 20px;
+}
+
+.icon1 a{
+    text-decoration: none;
+    color: #fff;
+    margin-left: 20px;
+    font-size: 30px;
+}
+
